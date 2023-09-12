@@ -51,7 +51,6 @@
 import './App.css';
 import Home from './Components/Home/Home';
 import Login from "./Components/Login/login";
-import Profile from './Components/Profile/Profile'
 import { useEffect, useState } from 'react';
 import { auth } from './Firebase/FirebaseConfig';
 import { onAuthStateChanged } from 'firebase/auth';
@@ -79,8 +78,6 @@ const App = () => {
     <div>
       <Routes>
         <Route path='/' element={user ? <Home /> : <Login />} />
-        <Route path='/profile' element={<Profile />} />
-
       </Routes>
     </div>
   );
