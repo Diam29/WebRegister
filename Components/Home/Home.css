@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=IBM+Plex+Mono&family=Luckiest+Guy&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300;1,500&family=Shadows+Into+Light+Two&display=swap');
+
+
+body {
+    background-position: center center;
+    background-image: url('../../img/AboutPage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: contain;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container_title {
+    color: rgb(184, 101, 6);
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+}
+
+.button {
+    font-size: 1.4rem;
+    font-family: 'Caveat', cursive;
+    background-color: rgb(144, 234, 144);
+    color: rgb(5, 69, 2);
+    border: solid rgb(5, 69, 2);
+    border-radius: 2rem;
+    width: 30%;
+    height: 20%;
+    padding: 6px;
+    margin-top: 1rem;
+}

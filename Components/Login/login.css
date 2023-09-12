@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=IBM+Plex+Mono&family=Luckiest+Guy&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300;1,500&family=Shadows+Into+Light+Two&display=swap');
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: rgba(162, 223, 9, 0.3);
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.label-container {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    vertical-align: auto;
+}
+
+.input-container {
+    padding: 16px;
+    border: 1px solid #565050;
+    border-radius: 4px;
+    background-color: #c3bdbd;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 1rem;
+}
+
+button {
+    margin-top: 9px;
+    padding: 10px 20px;
+    background-color: #2b7d31;
+    color: #252323;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(118, 238, 118, .5);
+}
+
+.underline {
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+}
