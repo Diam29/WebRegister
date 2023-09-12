@@ -1,7 +1,7 @@
 import React from 'react'
 import { auth } from '../../Firebase/FirebaseConfig'
 import LogoutUsers from '../../functions/LogOut'
-import './home.css'
+import './Home.css'
 const Home = () => {
 
 
