@@ -20,7 +20,7 @@ const App = () => {
       }
     });
 
-    return () => unsubscribe(); // Cleanup the subscription when unmounting
+    return () => unsubscribe();
 
   }, []);
 
