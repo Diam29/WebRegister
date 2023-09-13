@@ -14,7 +14,7 @@ const Home = () => {
 
     const handlerLogout = async () => {
         await LogoutUsers()
-        console.log('soy home');
+
     }
 
     return (
